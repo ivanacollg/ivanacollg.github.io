@@ -1,0 +1,49 @@
+body {
+    font-family: 'Arial', sans-serif;
+    max-width: 900px;
+    margin: auto;
+    padding: 2rem;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+a {
+    color: #0d6efd;
+    text-decoration: none;
+}
+
+/* Intro section layout */
+.intro-container {
+  display: flex;
+  align-items: flex-start; /* top-aligned */
+  gap: 20px;               /* space between image and text */
+  padding: 20px 0;
+}
+
+/* Headshot next to intro */
+.intro-headshot {
+  width: 300px;  /* adjust size as needed */
+  height: auto;
+  /*border-radius: 50%; /* optional circular image */
+  flex-shrink: 0;     /* prevent image from shrinking */
+}
+
+/* Text next to image */
+.intro-text {
+  flex: 1;           /* take remaining space */
+  font-size: 1rem;
+  line-height: 1.6;
+}
