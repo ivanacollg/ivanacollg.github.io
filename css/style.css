@@ -93,3 +93,11 @@ a {
     width: 100%;
   }
 }
+
+/* Job market callout at top of bio */
+.job-market {
+  background: #eef4ff;
+  border-left: 4px solid #0d6efd;
+  padding: 0.6rem 0.9rem;
+  margin-top: 0;
+}
