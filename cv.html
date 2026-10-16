@@ -19,6 +19,24 @@
       height: 90vh; /* almost full viewport height */
       border: none;
     }
+
+    .cv-download {
+      text-align: center;
+      margin: 0 0 1rem;
+    }
+
+    .cv-download a {
+      display: inline-block;
+      background: #0d6efd;
+      color: #fff;
+      padding: 0.5rem 1.2rem;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+
+    .cv-download a:hover {
+      background: #0a58ca;
+    }
   </style>
 </head>
 <body>
@@ -39,7 +57,10 @@
   </header>
 
   <main>
-    <iframe 
+    <p class="cv-download">
+      <a href="assets/CV_Ivana_Collado.pdf" download>Download CV (PDF)</a>
+    </p>
+    <iframe
       src="assets/CV_Ivana_Collado.pdf" 
       class="pdf-viewer">
     </iframe>
