@@ -54,3 +54,42 @@ a {
   color: #666;
   margin: 0.25rem 0 0.75rem;
 }
+
+/* Research entry: image beside description */
+.paper {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+.paper img {
+  width: 300px;
+  flex-shrink: 0;
+}
+
+/* Phones: stack images above text */
+@media (max-width: 700px) {
+  body {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .intro-container,
+  .paper {
+    flex-direction: column;
+  }
+
+  .intro-headshot {
+    width: 100%;
+    max-width: 300px;
+    align-self: center;
+  }
+
+  .paper img {
+    width: 100%;
+  }
+}
