@@ -30,7 +30,8 @@ a {
   display: flex;
   align-items: flex-start; /* top-aligned */
   gap: 20px;               /* space between image and text */
-  padding: 20px 0;
+  padding-top: 20px;
+  margin-bottom: 0;        /* keep Research Interests close to the bio */
 }
 
 /* Headshot next to intro */
